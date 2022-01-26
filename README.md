@@ -87,6 +87,7 @@ to load the dataset from scratch, make sure to download it and have it in the `w
 ## Contact
 
 Gal Ness - [gn@technion.ac.il](mailto:gn@technion.ac.il)
+
 Elad Zohar - [elad.zohar@campus.technion.ac.il](mailto:elad.zohar@campus.technion.ac.il)
 
 ## Project report
