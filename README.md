@@ -14,8 +14,8 @@ layers, cross-temporal correlations can boost the prediction accuracy.
 The physical motion of a device, whether a phone or a smartwatch, is
 usually not restricted to a single axis, and it tends to feature
 periodic patterns. For example, a runner carrying a smartwatch moves
-his arm in a particular motion, but unless pathologically intending, his
-movement is not co-linear with the watch’s coordinate system. Therefore,
+his arm in a particular motion, but unless he is deliberately modifying his movement,
+it has no reason to be co-linear with the watch’s coordinate system. Therefore,
 the recorded signal would involve accelerations in each of the three axes.
 
 To attain the inter-axis prediction, we use a multi-headed transformer
@@ -127,17 +127,17 @@ overall.
 
 ### Identifying oscillatory data
 
-At first, our model (detailed below) utilized the entirety of the WISDM
-dataset, and performed rather poorly. Specifically, we noticed the
-model’s output signal would tend to “die out” after a few epochs. This
-prompted us to first try solving the problem using a more traditional
-recurrent neural network (RNN). The idea is that if the RNN would also
-perform poorly, then there is an inherent problem in our data. Using an
-of-the-shelf RNN, we got similar results to those of the transformer.
-Our next step was to inspect the dataset a little more carefully and
-find that a lot of the activities recorded on it showed little to no
-signal most of the time, and zero periodicity. We thus decided to choose
-the subset of activities that did exhibit temporally periodic signals,
+In the first attempt we make, our model (detailed below) utilizes
+the entirety of the WISDM dataset, and performes rather poorly.
+Specifically, we notice the model’s output signal tends to “die out” after a few epochs.
+This promptes us to first try solving the problem using a more traditional
+recurrent neural network (RNN). The idea is that if the RNN also
+performs poorly, then there is an inherent problem in our data. Using an
+of-the-shelf RNN, we get similar results to those of the transformer.
+Our next step is to inspect the dataset a little more carefully and
+find that a lot of the activities recorded on it show little to no
+signal most of the time, and zero periodicity. We thus decide to choose
+the subset of activities that does exhibit temporally periodic signals,
 namely, sports activities such as walking, jogging, dribbling etc., this
 can be justified by the fact that wearable motion sensors are primarily
 used for recording such activities.
