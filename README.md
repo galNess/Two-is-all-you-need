@@ -16,7 +16,7 @@ usually not restricted to a single axis, and it tends to feature
 periodic patterns. For example, a runner carrying a smartwatch moves
 his arm in a particular motion, but unless pathologically intending, his
 movement is not co-linear with the watch’s coordinate system. Therefore,
-the recorded signal would involve accelerations in each of the three
+the recorded signal would involve accelerations in each of the three axes.
 
 To attain the inter-axis prediction, we use a multi-headed transformer
 model. Self-attention transformers were designed to handle sequential
