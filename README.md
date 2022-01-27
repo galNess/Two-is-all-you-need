@@ -145,7 +145,7 @@ used for recording such activities.
 ### Sampling and augmentations
 
 <figure>
-<img src="/aux/sample_example.png" style="width:55.0%"
+<img src="/aux/sample_example.png"  width="500" 
 alt="Example of three axes data with temporal correlations. Different colors represent different axes, all normalized to zero mean and unity standard deviation, and plotted vs. time ticks of duration 1/20Hz=50ms." />
 </figure>
 > Example of three axes data with temporal correlations. Different colors represent different axes, all normalized to zero mean and unity standard deviation, and plotted vs. time ticks of duration 1/20Hz=50ms.
@@ -189,7 +189,7 @@ positional encoding options, which enable the exploration of a few novel
 ideas, as detailed below.
 
 <figure>
-<img src="/aux/model.png" style="width:90.0%"
+<img src="/aux/model.png"  width="900" 
 alt="DESAT architecture. A dual encoder design is linked to a single decoder, all containing a self attention mechanism." />
 </figure>
 >DESAT architecture. A dual encoder design is linked to a single decoder, all containing a self attention mechanism.
@@ -218,7 +218,7 @@ again is done for all three (sine, sawtooth, sign) positional encoding
 types we examine.
 
 <figure>
-<img src="/aux/PEfigure" style="width:85.0%"
+<img src="/aux/PEfigure.png"  width="700" 
 alt="Positional encoding weaving." />
 </figure>
 > Positional encoding weaving. Example of the first depth layers where the positional encoding frequency kept to its highest. (a) independent positional encoding, both channels (x and y) are used with the same encoding, in this example – sign of sine and cosine. (b) weaved positional encoding, here at each frequency the channels feature one in-phase repetition and one out-of-phase repetition.
@@ -250,15 +250,15 @@ Here is a couple of examples for each of the weaved sine positional
 encoding prediction DESAT model, comparing the predicted signal (red)
 and the ground truth (blue):
 
-<img src="/aux/EE_sine_weaved.png" alt="examples" />
+<img src="/aux/prediction_example.png" alt="examples" width="1000" />
 
 ## References
 -   **The dataset**: Gary M. Weiss et al. Smartphone and
     smartwatch-based biometrics using activities of daily living. *IEEE
-    Access*, **7** 133190 (2019). [doi:10.1109/access.2019.2940729][http://dx.doi.org/10.1109/access.2019.2940729].
+    Access*, **7** 133190 (2019). [doi:10.1109/access.2019.2940729](http://dx.doi.org/10.1109/access.2019.2940729).
 
 -   **Self attention transformers**: Ashish Vaswani et al. Attention is
-    all you need. [arXiv:1706.03762][https://arxiv.org/abs/1706.03762] (2017).
+    all you need. (arXiv:1706.03762][https://arxiv.org/abs/1706.03762) (2017).
 
 ## Contact
 
