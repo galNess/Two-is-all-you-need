@@ -258,7 +258,7 @@ and the ground truth (blue):
     Access*, **7** 133190 (2019). [doi:10.1109/access.2019.2940729](http://dx.doi.org/10.1109/access.2019.2940729).
 
 -   **Self attention transformers**: Ashish Vaswani et al. Attention is
-    all you need. (arXiv:1706.03762](https://arxiv.org/abs/1706.03762) (2017).
+    all you need. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762) (2017).
 
 ## Contact
 
