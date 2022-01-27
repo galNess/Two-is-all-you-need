@@ -13,7 +13,7 @@ layers, cross-temporal correlations can boost the prediction accuracy.
 
 The physical motion of a device, whether a phone or a smartwatch, is
 usually not restricted to a single axis, and it tends to feature
-periodic patterns. For example, a running carrying a smartwatch moves
+periodic patterns. For example, a runner carrying a smartwatch moves
 his arm in a particular motion, but unless pathologically intending, his
 movement is not co-linear with the watch’s coordinate system. Therefore,
 the recorded signal would involve accelerations in each of the three
